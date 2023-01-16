@@ -1,0 +1,218 @@
+.contact-container {
+
+    width: 1010px;
+    height: 380px;
+    display: flex;
+}
+
+.contact-container__contacts {
+    width: 500px;
+    display: block;
+}
+
+.contact-container__location {
+    width: 590px;
+    display: block
+}
+ul {
+    padding: 0;
+}
+
+.contacts-text {
+    text-align: left;
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+    line-height: 35px;
+    padding-top: 5px;
+    padding-left: 0px;
+}
+
+.contacts-text__list {
+    list-style: none;
+}
+
+.contacts-heading {
+    font-family: "Arial", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.contact-container__map {
+    text-align: right;
+}
+
+.contact__map {
+    outline: 1px solid #959595;
+}
+
+
+.message-container {
+    box-sizing: border-box;
+    height: 120px;
+    width: 1010px;
+    margin-top: 0;
+    margin-bottom: 100px;
+    border: 1px solid #959595;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+    background-color: rgba(149, 149, 149, 0.3);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25), inset 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.message-container__button {
+    box-sizing: border-box;
+    height: 60px;
+    width: 330px;
+    display: block;
+
+    font-family: "Arial", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    background-color:rgb(67, 45, 206);
+
+    cursor: pointer;
+
+}
+
+.message-container__button:hover {
+    outline: 2px solid  rgba(217, 214, 214, 0.5);
+    color: rgb(217, 214, 214);
+}
+
+.send-message__toggle {
+    display: none;
+}
+
+.send-message__toggle:checked + .feedback {
+    display: flex;
+}
+
+.message-container__image {
+    cursor: pointer;
+}
+
+.message-container__image:hover {
+    transform: rotate(90deg);
+    transition-duration: 0.8s;
+}
+
+.message-container__text {
+    font-family: "Arial", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.feedback {
+    box-sizing: border-box;
+    width: 510px;
+    height: 500px;
+    outline: 2px solid rgba(28, 36, 184, 1);
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    margin: 110px 250px;
+    top: 100px;
+
+    background-color: rgb(206, 205, 205);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25), inset 0px 2px 4px rgba(0, 0, 0, 0.25);
+    z-index: 5;
+}
+
+.feedback-heading {
+    font-family: "Arial", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+.feedback:checked {
+    display: flex;
+    transition-duration: 1s;
+}
+
+.feedback_closing {
+    position: absolute;
+    
+    top: -30px;
+    right: -30px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;
+    cursor: pointer;
+    color: rgb(67, 45, 206);
+}
+
+.feedback-group {
+    display: block;
+    margin: 5px 30px;
+    font-family: "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+}
+
+
+.feedback-hint {
+    display: block;
+}
+
+.feedback-row {
+    width: 440px;
+    font-family: "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(149, 149, 149, 1);
+    padding: 2px;
+}
+
+.feedback-row:focus {
+    outline: 1px solid rgba(28, 36, 184, 1);
+}
+
+.feedback-row:hover {
+    outline: 1px solid rgba(28, 36, 184, 1);
+}
+
+.feedback-row-textarea {
+    resize: vertical;
+    max-height: 300px;
+    min-height: 60px;
+    margin-bottom: 20px;
+
+}
+
+
+.feedback-button {
+    box-sizing: border-box;
+    height: 45px;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+
+    font-family: "Arial", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    background-color:rgb(67, 45, 206);
+    border: 1px solid rgb(67, 45, 206);
+    cursor: pointer;
+}
+
+.feedback-button:hover {
+    outline: 2px solid  rgba(217, 214, 214, 0.5);
+    color: rgb(217, 214, 214);
+}

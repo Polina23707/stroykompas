@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/styles-contacts.css">
+
+    <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon.png">
+    <title>Контакты</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="heading">
+        <div class="heading-logo">
+            <a href="../index.html">
+                <img class="main-logo" src="../images/logo-main.png" alt="Логотип">
+            </a>
+        </div>
+
+
+        <div class="heading-menu">
+            <a href="about.html" class="heading-menu__item">О компании</a>
+            <a href="services.html" class="heading-menu__item">Услуги</a>
+            <a href="objects.html" class="heading-menu__item">Объекты</a>
+            <a href="contacts.html" class="heading-menu__item heading-menu__active-item">Контакты</a>
+        </div>
+
+        <div class="heading__contact-us">
+            <div class="heading__contacts">
+                <p>ООО “Стройкомпас”<br>
+                    +7 (342) 240-93-89<br>
+                    Пермь, ул. К. Цеткин, 14, оф.414</p>
+            </div>
+            
+                <a href="contacts.html" class="heading__contact-us-link">
+                    <div class="heading__contact-us-container">
+                        <img class="logo-xs" src="../images/logo-xs-str.png"  alt="">
+                        <div class="contact-us">Связаться с нами</div>
+                    </div>
+                </a>
+
+        </div>
+
+    </header>
+    <!-- Navigation -->
+    <nav>
+        <a class="navigation-item" href="../index.html">Главная страница</a>
+        <div class="navigation-item">›</div>
+        <a class="navigation-item" href="contacts.html">Контакты</a>
+
+    </nav>
+
+        <!-- Main section -->
+        <main>
+            <div class="contact-container">
+
+                <div class="contact-container__contacts">
+                    <h3 class="contacts-heading">Контактная информация</h3>
+                    <div class="contacts-text">
+                        <ul>
+                            <li class="contacts-text__list"><strong>Название:</strong> Общество с ограниченной ответственностью “Стройкомпас”</li>
+                            <li class="contacts-text__list"><strong>Адрес:</strong> г. Пермь, ул. Клары Цеткин, д.14, оф.414</li>
+                            <li class="contacts-text__list"><strong>Тел.:</strong> +7 (342) 240-93-89</li>
+                            <li class="contacts-text__list"><strong>Email:</strong> kna@skompas.ru</li>
+                            <li class="contacts-text__list"><strong>Часы работы:</strong> 09:00-18:00 Пн-Пт</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <div class="contact-container__location">
+                    <h3 class="contacts-heading">Расположение</h3>
+                    <div class="contact-container__map">
+                        <iframe class="contact__map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A5783b3c1acac10414bfcc60afc8bcbdb144e1846a004068914dc35089bb246db&amp;source=constructor" width="470" height="280" frameborder="0"></iframe>
+                    </div>
+                   
+                    
+
+                </div>
+            </div>
+            <img src="" alt="" class="contact-container__logo">
+
+            <div class="message-container">
+                
+                <input class="send-message__toggle" id="send-message" type="checkbox">
+                
+                <form class="feedback">
+
+                    <h2 class="feedback-heading">Обратная связь</h2>
+                    
+                    <label class="feedback_closing" for="send-message">&#9587</label>
+                    <label class="feedback-group">
+                        <span class="feedback-hint">Ваше имя*</span>
+                        <input class="feedback-row" type="text" placeholder="Иванов Иван" required>
+                    </label>
+                    <label class="feedback-group">
+                        <span class="feedback-hint">Контактный телефон</span>
+                        <input class="feedback-row" type="text" placeholder="+7 999 999 99 99">
+                    </label>
+                    <label class="feedback-group">
+                        <span class="feedback-hint">Ваш Email*</span>
+                        <input class="feedback-row" type="email" placeholder="Ivanov@mail.ru" required>
+                    </label>
+                    <label class="feedback-group">
+                        <span class="feedback-hint">Тема письма</span>
+                        <input class="feedback-row" type="text" placeholder="Сотрудничество">
+                    </label>
+                    <label class="feedback-group">
+                        <span class="feedback-hint">Ваше обращение</span>
+                        <textarea class="feedback-row feedback-row-textarea" name="" id="">Добрый день, </textarea>
+                    </label>
+
+                    <button class="feedback-button" type="submit">
+                        Отправить
+                    </button>
+
+                </form>
+                
+                <div class="message-container__text">
+                    Остались вопросы?
+                </div>
+                <img class="message-container__image" width="70px" src="../images/logo-m-str.png" alt="Логотип">
+                <label for="send-message">
+                    <div class="message-container__button">
+                        Оставьте нам сообщение
+                    </div>
+                </label>                
+                
+            </div>
+    
+        </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-logo">
+            <a href="../index.html">
+                <img class="footer-logo-image" width="70px" src="../images/logo-m-str.png" alt="Логотип">
+            </a>
+            <div class="footer-contacts">
+                <p>ООО “Стройкомпас”<br>
+                    Пермь, ул. К. Цеткин, 14, оф.414<br>
+                    +7 (342) 240-93-89<br>
+                    kna@skompas.ru
+                    </p>
+            </div>
+        </div>
+
+        <div class="footer-menu">
+            <a href="about.html" class="footer-menu__item">О компании</a>
+            <a href="services.html" class="footer-menu__item">Услуги</a>
+            <a href="objects.html" class="footer-menu__item">Объекты</a>
+            <a href="contacts.html" class="footer-menu__item">Контакты</a>
+        </div>
+        
+        <div class="footer__go-up">
+            <a class="go-up-link" href="#">
+                <div class="go-up-link-text">Наверх</div>
+                
+                <div class="go-up-link-arrow">↑</div></a>
+            
+        </div>
+    </footer>
+    
+</body>
+</html>
